@@ -40,7 +40,7 @@ class Book
 #   def genre=(genre)
 #     @genre=genre
 #   end
-# end 
+end 
 
 book1 = Book.new("The Giver", "Lois Lowry", 300, "Fiction")
 book2 = Book.new("Catcher in the Rye", "JD Sailinger", 102, "Literary realism")
