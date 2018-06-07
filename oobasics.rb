@@ -1,4 +1,7 @@
 class Book
+  
+  attr_accessor :title, :author, :page_count, :genre, :main_character
+  
   def initialize(title, author, page_count, genre)
     @title=title
     @author=author
@@ -44,4 +47,5 @@ book2 = Book.new("Catcher in the Rye", "JD Sailinger", 102, "Literary realism")
 book3 = Book.new("Mockingjay", "Suzanne", 340, "Science Fiction")
 
 book2.author = "JD Chan"
-puts book2.author
+book2.main_character = "Holden"
+puts book2.main_character
